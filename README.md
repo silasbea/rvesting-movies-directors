@@ -4,3 +4,4 @@ This is the part II to the rvesting-movies repo in that it shows how to webscrap
 
 In the end, a new dataframe consisting movie titles, years of production, movie ratings and movie directors is formed. 
 
+![]("imdb-250-new.jpg")

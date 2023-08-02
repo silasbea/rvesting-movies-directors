@@ -1,0 +1,160 @@
+---
+title: "rvesting-movies"
+author: "Silas Bamidele"
+date: "2023-08-02"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+## Harvesting IMDB Movies with RVest to include Movie Directors
+
+Get movie titles
+```{r}
+library(dplyr)
+library(stringr)
+library(rvest)
+
+url <- "https://imdb.com/chart/top"
+top_movies <- read_html(url)   #read the supplied url with read_html -- powered by rvest
+top_movies %>% 
+  html_nodes("ul.ipc-metadata-list li div.cli-children h3") %>%  #pipe top_movies into html_nodes and html_text 
+  html_text() -> top_movies
+
+top_movies %>% 
+  str_trim() %>%  
+  str_split("\n") -> top_movies   #After trimming and splitting it down, you get a LIST
+
+top_movies %>%  #outputs as a list here, so let's unlist
+  unlist() -> top_movies  # after unlisting, you then get a vector of characters, with the movie names
+
+  top_movies %>% 
+    str_replace("^\\d+\\.\\s*", "") -> top_movies
+  
+  top_movies %>% 
+    as.character() -> top_movies #type casting
+  
+  top_movies
+  
+ 
+```
+
+Get movie years
+```{r}
+library(dplyr)
+library(stringr)
+library(rvest)
+
+url <- "https://imdb.com/chart/top"
+top_movies <- read_html(url)   #read the supplied url with read_html -- powered by rvest
+top_movies %>% 
+  html_nodes("ul.ipc-metadata-list li div.cli-title-metadata") %>%  #pipe top_movies into html_nodes and html_text 
+  html_text() -> top_years
+
+top_years %>% 
+  str_extract("\\d{4}") -> top_years # extracts the year values from the data
+
+top_years %>% 
+  as.integer() -> top_years #type casting to integer
+
+```
+
+Get movie ratings
+```{r}
+library(dplyr)
+library(stringr)
+library(rvest)
+
+url <- "https://imdb.com/chart/top"
+top_movies <- read_html(url)   #read the supplied url with read_html -- powered by rvest
+top_movies %>% 
+  html_nodes("ul.ipc-metadata-list li .ipc-rating-star--imdb") %>%  #pipe into html_nodes and html_text -- most important here 
+  html_text() -> top_ratings  # returns all ratings in char format. Let's change to numeric
+
+top_ratings %>% 
+  as.numeric() -> top_ratings #type casting
+
+top_ratings
+
+```
+
+## Web scrapping for movie directors
+Notice on the IMDB website, the director names are on the  single movie pages, that is the movie link has been clicked, as such links are represented by anchor tags, so we'll be targeting the anchor <a href="> tag, and then spilling the hrefs out with the html_attr() function
+```{r}
+library(dplyr)
+library(stringr)
+library(rvest)
+
+url <- "https://imdb.com/chart/top"
+top_movies <- read_html(url)
+top_movies %>% 
+  html_nodes("ul.ipc-metadata-list li div.cli-children a") %>%  #target the anchor tag this time 
+  html_attr("href") -> hrefs
+
+#use paste0 to concatenate domain name and the resulting hrefs
+paste0("https://www.imdb.com", hrefs) -> links #this forms the single page links which are then piped as the new urls to the read_html function -- **this might be the most important concept to grasp here*
+
+links[1] %>% #to test, pipe a single link to read_html and drill down for the director
+  read_html() %>% 
+  html_node("div.ipc-metadata-list-item__content-container ul.ipc-inline-list--show-dividers li a" ) %>% 
+  html_text() -> director #this is a test code to return a single director
+
+#Now to fetch a list of all directors with the lapply loop
+
+lapply(links, function(link){
+   link %>% 
+  read_html() %>% 
+  html_node("div.ipc-metadata-list-item__content-container ul.ipc-inline-list--show-dividers li a" ) %>% 
+  html_text() 
+  }) -> directors  #returns a list, so let's unlist in the next code chunk
+
+```
+
+```{r}
+library(dplyr)
+library(stringr)
+library(rvest)
+
+directors %>% 
+  unlist() -> directors
+
+directors
+```
+
+Generating a new tibble to include directors
+```{r}
+library(tibble)
+library(dplyr)
+tibble(
+  Movies = as.character(top_movies),
+  Movie_Years = top_years,
+  Ratings = top_ratings,
+  Directors = directors
+       ) -> imdb_top_250_new
+
+imdb_top_250_new
+
+```
+
+
+Writing the tibble to csv
+```{r}
+# Load the readr package
+library(readr)
+
+
+# Tibble to write
+my_tibble <- imdb_top_250_new
+
+# Define the path where you want to save the CSV file
+file_path <- "/home/silas/top_250_movies_new.csv"
+
+#Notice the path includes a file name
+
+# Write the tibble to a CSV file
+write_csv(my_tibble, file_path)
+
+```
+
+
+

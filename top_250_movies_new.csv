@@ -1,0 +1,251 @@
+Movies,Movie_Years,Ratings,Directors
+The Shawshank Redemption,1994,9.3,Frank Darabont
+The Godfather,1972,9.2,Francis Ford Coppola
+The Dark Knight,2008,9,Christopher Nolan
+The Godfather Part II,1974,9,Francis Ford Coppola
+12 Angry Men,1957,9,Sidney Lumet
+Schindler's List,1993,9,Steven Spielberg
+The Lord of the Rings: The Return of the King,2003,9,Peter Jackson
+Pulp Fiction,1994,8.9,Quentin Tarantino
+The Lord of the Rings: The Fellowship of the Ring,2001,8.8,Peter Jackson
+"Il buono, il brutto, il cattivo",1966,8.8,Sergio Leone
+Forrest Gump,1994,8.8,Robert Zemeckis
+Fight Club,1999,8.8,David Fincher
+The Lord of the Rings: The Two Towers,2002,8.8,Peter Jackson
+Inception,2010,8.8,Christopher Nolan
+Spider-Man: Across the Spider-Verse,2023,8.9,Joaquim Dos Santos
+Star Wars: Episode V - The Empire Strikes Back,1980,8.7,Irvin Kershner
+The Matrix,1999,8.7,Lana Wachowski
+GoodFellas,1990,8.7,Martin Scorsese
+One Flew Over the Cuckoo's Nest,1975,8.7,Milos Forman
+Se7en,1995,8.6,David Fincher
+It's a Wonderful Life,1946,8.6,Frank Capra
+Shichinin no samurai,1954,8.6,Akira Kurosawa
+The Silence of the Lambs,1991,8.6,Jonathan Demme
+Interstellar,2014,8.7,Christopher Nolan
+Saving Private Ryan,1998,8.6,Steven Spielberg
+Cidade de Deus,2002,8.6,Fernando Meirelles
+La vita è bella,1997,8.6,Roberto Benigni
+The Green Mile,1999,8.6,Frank Darabont
+Oppenheimer,2023,8.7,Christopher Nolan
+Star Wars,1977,8.6,George Lucas
+Terminator 2: Judgment Day,1991,8.6,James Cameron
+Back to the Future,1985,8.5,Robert Zemeckis
+Sen to Chihiro no kamikakushi,2001,8.6,Hayao Miyazaki
+The Pianist,2002,8.5,Roman Polanski
+Psycho,1960,8.5,Alfred Hitchcock
+Gisaengchung,2019,8.5,Bong Joon Ho
+Gladiator,2000,8.5,Ridley Scott
+The Lion King,1994,8.5,Roger Allers
+Léon,1994,8.5,Luc Besson
+American History X,1998,8.5,Tony Kaye
+The Departed,2006,8.5,Martin Scorsese
+Whiplash,2014,8.5,Damien Chazelle
+The Prestige,2006,8.5,Christopher Nolan
+The Usual Suspects,1995,8.5,Bryan Singer
+Casablanca,1942,8.5,Michael Curtiz
+Hotaru no haka,1988,8.5,Isao Takahata
+Seppuku,1962,8.6,Masaki Kobayashi
+Intouchables,2011,8.5,Olivier Nakache
+Modern Times,1936,8.5,Charles Chaplin
+Nuovo Cinema Paradiso,1988,8.5,Giuseppe Tornatore
+C'era una volta il West,1968,8.5,Sergio Leone
+Rear Window,1954,8.5,Alfred Hitchcock
+Alien,1979,8.5,Ridley Scott
+City Lights,1931,8.5,Charles Chaplin
+Apocalypse Now,1979,8.4,Francis Ford Coppola
+Memento,2000,8.4,Christopher Nolan
+Django Unchained,2012,8.4,Quentin Tarantino
+Raiders of the Lost Ark,1981,8.4,Steven Spielberg
+WALL·E,2008,8.4,Andrew Stanton
+Das Leben der Anderen,2006,8.4,Florian Henckel von Donnersmarck
+Sunset Blvd.,1950,8.4,Billy Wilder
+Paths of Glory,1957,8.4,Stanley Kubrick
+Avengers: Infinity War,2018,8.4,Anthony Russo
+The Shining,1980,8.4,Stanley Kubrick
+The Great Dictator,1940,8.4,Charles Chaplin
+Witness for the Prosecution,1957,8.4,Billy Wilder
+Spider-Man: Into the Spider-Verse,2018,8.4,Bob Persichetti
+Alien 2,1986,8.4,James Cameron
+American Beauty,1999,8.3,Sam Mendes
+The Dark Knight Rises,2012,8.4,Christopher Nolan
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,8.4,Stanley Kubrick
+Inglourious Basterds,2009,8.3,Quentin Tarantino
+Oldeuboi,2003,8.4,Park Chan-wook
+Coco,2017,8.4,Lee Unkrich
+Amadeus,1984,8.4,Milos Forman
+Toy Story,1995,8.3,John Lasseter
+Braveheart,1995,8.3,Mel Gibson
+Das Boot,1981,8.4,Wolfgang Petersen
+Joker,2019,8.4,Todd Phillips
+Avengers: Endgame,2019,8.4,Anthony Russo
+Mononoke-hime,1997,8.3,Hayao Miyazaki
+Good Will Hunting,1997,8.3,Gus Van Sant
+Once Upon a Time in America,1984,8.3,Sergio Leone
+Kimi no na wa.,2016,8.4,Makoto Shinkai
+3 Idiots,2009,8.4,Rajkumar Hirani
+Singin' in the Rain,1952,8.3,Stanley Donen
+Tengoku to jigoku,1963,8.4,Akira Kurosawa
+Requiem for a Dream,2000,8.3,Darren Aronofsky
+Capharnaüm,2018,8.4,Nadine Labaki
+Toy Story 3,2010,8.3,Lee Unkrich
+Idi i smotri,1985,8.4,Elem Klimov
+Star Wars: Episode VI - Return of the Jedi,1983,8.3,Richard Marquand
+Eternal Sunshine of the Spotless Mind,2004,8.3,Michel Gondry
+2001: A Space Odyssey,1968,8.3,Stanley Kubrick
+Jagten,2012,8.3,Thomas Vinterberg
+Reservoir Dogs,1992,8.3,Quentin Tarantino
+Lawrence of Arabia,1962,8.3,David Lean
+Ikiru,1952,8.3,Akira Kurosawa
+Citizen Kane,1941,8.3,Orson Welles
+M - Eine Stadt sucht einen Mörder,1931,8.3,Fritz Lang
+North by Northwest,1959,8.3,Alfred Hitchcock
+The Apartment,1960,8.3,Billy Wilder
+Vertigo,1958,8.3,Alfred Hitchcock
+Le fabuleux destin d'Amélie Poulain,2001,8.3,Jean-Pierre Jeunet
+Double Indemnity,1944,8.3,Billy Wilder
+Full Metal Jacket,1987,8.3,Stanley Kubrick
+Scarface,1983,8.3,Brian De Palma
+A Clockwork Orange,1971,8.3,Stanley Kubrick
+Incendies,2010,8.3,Denis Villeneuve
+Hamilton,2020,8.3,Thomas Kail
+Heat,1995,8.3,Michael Mann
+Up,2009,8.3,Pete Docter
+To Kill a Mockingbird,1962,8.3,Robert Mulligan
+The Sting,1973,8.3,George Roy Hill
+Jodaeiye Nader az Simin,2011,8.3,Asghar Farhadi
+Indiana Jones and the Last Crusade,1989,8.2,Steven Spielberg
+Metropolis,1927,8.3,Fritz Lang
+Die Hard,1988,8.2,John McTiernan
+L.A. Confidential,1997,8.2,Curtis Hanson
+Snatch,2000,8.2,Guy Ritchie
+Ladri di biciclette,1948,8.3,Vittorio De Sica
+Taare Zameen Par,2007,8.3,Aamir Khan
+Taxi Driver,1976,8.2,Martin Scorsese
+1917,2019,8.2,Sam Mendes
+Der Untergang,2004,8.2,Oliver Hirschbiegel
+Dangal,2016,8.3,Nitesh Tiwari
+Top Gun: Maverick,2022,8.3,Joseph Kosinski
+Per qualche dollaro in più,1965,8.2,Sergio Leone
+Batman Begins,2005,8.2,Christopher Nolan
+The Kid,1921,8.3,Charles Chaplin
+Some Like It Hot,1959,8.2,Billy Wilder
+The Father,2020,8.2,Florian Zeller
+The Wolf of Wall Street,2013,8.2,Martin Scorsese
+Green Book,2018,8.2,Peter Farrelly
+All About Eve,1950,8.2,Joseph L. Mankiewicz
+Judgment at Nuremberg,1961,8.3,Stanley Kramer
+The Truman Show,1998,8.2,Peter Weir
+Ran,1985,8.2,Akira Kurosawa
+Casino,1995,8.2,Martin Scorsese
+There Will Be Blood,2007,8.2,Paul Thomas Anderson
+El laberinto del fauno,2006,8.2,Guillermo del Toro
+Shutter Island,2010,8.2,Martin Scorsese
+Unforgiven,1992,8.2,Clint Eastwood
+The Sixth Sense,1999,8.2,M. Night Shyamalan
+Jurassic Park,1993,8.2,Steven Spielberg
+A Beautiful Mind,2001,8.2,Ron Howard
+The Treasure of the Sierra Madre,1948,8.2,John Huston
+Yôjinbô,1961,8.2,Akira Kurosawa
+No Country for Old Men,2007,8.2,Ethan Coen
+Monty Python and the Holy Grail,1975,8.2,Terry Gilliam
+Kill Bill: Vol. 1,2003,8.2,Quentin Tarantino
+The Great Escape,1963,8.2,John Sturges
+The Thing,1982,8.2,John Carpenter
+Rashômon,1950,8.2,Akira Kurosawa
+Finding Nemo,2003,8.2,Andrew Stanton
+The Elephant Man,1980,8.2,David Lynch
+Chinatown,1974,8.2,Roman Polanski
+Spider-Man: No Way Home,2021,8.2,Jon Watts
+V for Vendetta,2005,8.2,James McTeigue
+Gone with the Wind,1939,8.2,Victor Fleming
+Raging Bull,1980,8.1,Martin Scorsese
+Dial M for Murder,1954,8.2,Alfred Hitchcock
+Hauru no ugoku shiro,2004,8.2,Hayao Miyazaki
+"Lock, Stock and Two Smoking Barrels",1998,8.1,Guy Ritchie
+El secreto de sus ojos,2009,8.2,Juan José Campanella
+Inside Out,2015,8.1,Pete Docter
+Prisoners,2013,8.1,Denis Villeneuve
+"Three Billboards Outside Ebbing, Missouri",2017,8.1,Martin McDonagh
+The Bridge on the River Kwai,1957,8.1,David Lean
+Trainspotting,1996,8.1,Danny Boyle
+Fargo,1996,8.1,Joel Coen
+Warrior,2011,8.1,Gavin O'Connor
+Gran Torino,2008,8.1,Clint Eastwood
+Catch Me If You Can,2002,8.1,Steven Spielberg
+Tonari no Totoro,1988,8.1,Hayao Miyazaki
+Million Dollar Baby,2004,8.1,Clint Eastwood
+Klaus,2019,8.2,Sergio Pablos
+Bacheha-Ye aseman,1997,8.2,Majid Majidi
+Harry Potter and the Deathly Hallows: Part 2,2011,8.1,David Yates
+Blade Runner,1982,8.1,Ridley Scott
+The Gold Rush,1925,8.1,Charles Chaplin
+12 Years a Slave,2013,8.1,Steve McQueen
+Before Sunrise,1995,8.1,Richard Linklater
+The Grand Budapest Hotel,2014,8.1,Wes Anderson
+Ben-Hur,1959,8.1,William Wyler
+Gone Girl,2014,8.1,David Fincher
+On the Waterfront,1954,8.1,Elia Kazan
+Barry Lyndon,1975,8.1,Stanley Kubrick
+In the Name of the Father,1993,8.1,Jim Sheridan
+The General,1926,8.1,Clyde Bruckman
+Hacksaw Ridge,2016,8.1,Mel Gibson
+The Deer Hunter,1978,8.1,Michael Cimino
+Smultronstället,1957,8.1,Ingmar Bergman
+Salinui chueok,2003,8.1,Bong Joon Ho
+The Third Man,1949,8.1,Carol Reed
+Le salaire de la peur,1953,8.2,Henri-Georges Clouzot
+Sherlock Jr.,1924,8.2,Buster Keaton
+Relatos salvajes,2014,8.1,Damián Szifron
+Mad Max: Fury Road,2015,8.1,George Miller
+Mr. Smith Goes to Washington,1939,8.1,Frank Capra
+Dead Poets Society,1989,8.1,Peter Weir
+"Monsters, Inc.",2001,8.1,Pete Docter
+Mary and Max.,2009,8.1,Adam Elliot
+How to Train Your Dragon,2010,8.1,Dean DeBlois
+Jaws,1975,8.1,Steven Spielberg
+Det sjunde inseglet,1957,8.1,Ingmar Bergman
+Room,2015,8.1,Lenny Abrahamson
+Tôkyô monogatari,1953,8.2,Yasujirô Ozu
+The Big Lebowski,1998,8.1,Joel Coen
+Ford v Ferrari,2019,8.1,James Mangold
+Ratatouille,2007,8.1,Brad Bird
+La passion de Jeanne d'Arc,1928,8.2,Carl Theodor Dreyer
+Hotel Rwanda,2004,8.1,Terry George
+Rocky,1976,8.1,John G. Avildsen
+Platoon,1986,8.1,Oliver Stone
+Logan,2017,8.1,James Mangold
+Spotlight,2015,8.1,Tom McCarthy
+The Terminator,1984,8.1,James Cameron
+Jai Bhim,2021,8.8,T.J. Gnanavel
+Before Sunset,2004,8.1,Richard Linklater
+Rush,2013,8.1,Ron Howard
+Network,1976,8.1,Sidney Lumet
+Stand by Me,1986,8.1,Rob Reiner
+The Best Years of Our Lives,1946,8.1,William Wyler
+The Wizard of Oz,1939,8.1,Victor Fleming
+Into the Wild,2007,8.1,Sean Penn
+La haine,1995,8.1,Mathieu Kassovitz
+The Exorcist,1973,8.1,William Friedkin
+The Incredibles,2004,8,Brad Bird
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,8.1,Gore Verbinski
+To Be or Not to Be,1942,8.2,Ernst Lubitsch
+Groundhog Day,1993,8,Harold Ramis
+Babam ve Oglum,2005,8.2,Çagan Irmak
+The Grapes of Wrath,1940,8.1,John Ford
+La battaglia di Algeri,1966,8.1,Gillo Pontecorvo
+Hachi: A Dog's Tale,2009,8.1,Lasse Hallström
+Ah-ga-ssi,2016,8.1,Park Chan-wook
+Amores perros,2000,8.1,Alejandro G. Iñárritu
+Pather Panchali,1955,8.2,Satyajit Ray
+Cool Hand Luke,1967,8.1,Stuart Rosenberg
+Rebecca,1940,8.1,Alfred Hitchcock
+The Sound of Music,1965,8.1,Robert Wise
+It Happened One Night,1934,8.1,Frank Capra
+Les quatre cents coups,1959,8.1,François Truffaut
+Persona,1966,8.1,Ingmar Bergman
+The Iron Giant,1999,8.1,Brad Bird
+The Help,2011,8.1,Tate Taylor
+Life of Brian,1979,8,Terry Jones
+Aladdin,1992,8,Ron Clements
+Dances with Wolves,1990,8,Kevin Costner
